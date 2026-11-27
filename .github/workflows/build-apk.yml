@@ -31,7 +31,7 @@ jobs:
         with:
           python-version: '3.11'
 
-            - name: Set up Android SDK
+       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
           packages: platform-tools
